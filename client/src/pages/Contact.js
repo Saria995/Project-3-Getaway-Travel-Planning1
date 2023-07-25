@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <div className="container mt-2">
-      <h2 className="display-6" style={centerStyle}>Contact</h2>
+      <h2 className="display-6" style={centerStyle}>Contact us today to help plan your trip</h2>
       <div className="row mb-3">
         <div className="col">
           <img
@@ -25,9 +25,9 @@ const Contact = () => {
 
       <div className="row mb-3">
         <div className="col" style={centerStyle}>
-          <h2 className="display-6">Student</h2>
-          <a href={"https://google.com"} className="link-dark" target="_blank" rel="noopener noreferrer" >
-            Student's Github
+          <h2 className="display-6">Saria Elchaar</h2>
+          <a href={"https://github.com/Saria995"} className="link-dark" target="_blank" rel="noopener noreferrer" >
+            Contact Us
           </a>
         </div>
       </div>
