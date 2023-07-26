@@ -2,8 +2,10 @@ import React, { userState } from "react";
 import { Link } from "react-router-dom";
 import video from "../assets/Travel_Planner_Background_Compressed.mp4";
 import "../style/video.css";
+import Button from 'react-bootstrap/Button';
 
 import Auth from "../utils/auth";
+
 
 const Home = () => {
   const userId = Auth.getUser()?.data?.username;
@@ -32,6 +34,7 @@ const Home = () => {
                   </button>
                 </Link>
               )}
+
             </div>
           </div>
         </div>
