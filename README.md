@@ -1,48 +1,75 @@
 # Project-3-Getaway-Travel-Planning
 
 ### Author
+
 Created by Saria Elchaar
 
 ## Description
+
 This app has been developed for audiences who are constantly travelling, or have an upcoming trip. This fullstack MERN app allows travellers to log and track their trips by creating a trip and add it to their calendar. User's are able to create new trips, update existing trips and delete trips. User's are able to see a countdown to their trip and deep dive in logging their daily schedule for the trip.
 
-## Table of Contents 
+## Table of Contents
 
-* Usage
-* The Challenge
-* Technologies Used 
-* Collaborators 
-* Mock-Up
-* Link to Deployed Site/GitHub Repo
-* Copyright
-
+- Usage
+- The Challenge
+- Technologies Used
+- Link to Deployed Site/GitHub Repo
+- Copyright
 
 ## Usage
+
+You will have to make sure you clone the GitHub Repository and have the following installed:
+
+- Node
+- MongoDB, Mongoose
+- Add all required dependencies by running an npm Install
+- Once all installed deploy site on local system
+
 To use the app click on the above Heroku Link
 Once you have accessed the app:
 
-You will be presented with the home screen
+### You will be presented with the home screen
+
 ![Alt text](<client/src/assets/Home Page.png>)
 
-Click the register button in the nav bar and complete the form to set up your account.
-Enter an email, a username and password  and click confirm
+#### Click the register button in the nav bar and complete the form to set up your account.
+
+### Enter an email, a username and password and click confirm
+
+![Alt text](<client/src/assets/Sign up page.png>)
+
+#### If you already have an email, use the 'Login' option
+
+![Alt text](<client/src/assets/Login Page.png>)
+
+### Once you have logged in/Signed Up you will be able to access the full funcionality of the site and will be taken to your trip dashboard.
+
+![Alt text](<client/src/assets/My trips page.png>)
+
+You can complete the following:
+
+### Add a new trip/Delete
+
+![Alt text](<client/src/assets/Add trip page.png>)
+
+### Edit/Update Existing Trip
+
+![Alt text](<client/src/assets/Edit trip.png>)
+
+### Create a daily schedule
+
+![Alt text](<client/src/assets/Daily schedule.png>)
+
 ## The Challenge
+
 ```
-* Use Node.js and Express.js to create a RESTful API.
+* Use React for the front end.
 
-* Use Handlebars.js as the template engine.
+* Use GraphQL with a Node.js and Express.js server.
 
-* Use MySQL and the Sequelize ORM for the database.
+* Use MongoDB and the Mongoose ODM for the database.
 
-* Have both GET and POST routes for retrieving and adding new data.
-
-* Use at least one new library, package, or technology that we haven’t discussed.
-
-* Have a folder structure that meets the MVC paradigm.
-
-* Include authentication (express-session and cookies).
-
-* Protect API keys and sensitive information with environment variables.
+* Use queries and mutations for retrieving, adding, updating, and deleting data.
 
 * Be deployed using Heroku (with data).
 
@@ -51,59 +78,39 @@ Enter an email, a username and password  and click confirm
 * Be responsive.
 
 * Be interactive (i.e., accept and respond to user input).
+
+* Include authentication (JWT).
+
+* Protect sensitive API key information on the server.
+
+* Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class and id naming conventions, indentation, high-quality comments, etc.).
+
+* Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
+
 ```
 
 ## Technologies Used
 
 This app was built using the following technologies:
 
-* HTML
-* CSS
-* Bootstrap framework 
-* JavaScript 
-* jQuery
-* OpenAI
-* APIs
-* Handlebars
-* BCrypt
-
-
-## Collaborators 
-
-* Andrew Clark
-* Saria Elchaar
-* Antonio Lu
-* Beverley Witherington
-* Hugo Smith Witherington
-
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-### Home Page
-![Alt text](public/Assets/images/Home%20page.png)
-
-### Browse Page
-![Alt text](public/Assets/images/Browse%20Page.png)
-
-### Cart Page
-![Alt text](public/Assets/images/cart%20page.png)
-
-### Login Page
-![Alt text](public/Assets/images/Login%20Page.png)
-
-### Sign Up Page
-![Alt text](public/Assets/images/localhost_3001_sign-up.png)
-
-### Upload Page
-![Alt text](public/Assets/images/upload%20eBook%20Library.png)
+- HTML
+- CSS
+- Bootstrap framework
+- JavaScript
+- React
+- GraphQL
+- MongoDB, Mongoose
+- BCrypt
+- Node
+- DayJS
+- Apollo Server Express
+- Express.js
 
 ## Link to Deployed Site/GitHub Repo
 
-* Heroku: https://team9-ebook-library.herokuapp.com/
-* GitHub Repo: https://github.com/Saria995/team-9-project-2.git
+- Heroku: https://getaway-travels-42e954376ed9.herokuapp.com
+- GitHub Repo: https://github.com/Saria995/Project-3-Getaway-Travel-Planning1.git
 
-## Copyright 
+## Copyright
 
-N/A 
+N/A
