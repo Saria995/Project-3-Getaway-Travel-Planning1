@@ -1,0 +1,36 @@
+/* dashboardStyles.css */
+
+/* Add a vibrant background color to the page */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the header text */
+  .display-6 {
+    color: #ff5722;
+    font-weight: bold;
+  }
+  
+  /* Add a travel-themed background image to the sections */
+  .col-md-6 {
+    background-image: url("path_to_travel_image.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the heading of each section */
+  .fs-4 {
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Add some spacing between the trip cards */
+  .UserTripCards {
+    margin-bottom: 20px;
+  }
+  

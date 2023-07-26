@@ -1,0 +1,6 @@
+.countdown {
+    color: #ff5722; /* Choose your desired color for the countdown text */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the countdown text bold */
+    margin-top: 8px; /* Add some space between the previous element and the countdown text */
+  }
