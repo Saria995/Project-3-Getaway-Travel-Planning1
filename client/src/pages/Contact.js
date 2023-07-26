@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../assets/group.png";
+import logo from "../assets/contact-us.jpg";
+
 
 const Contact = () => {
   const centerStyle = {
@@ -25,9 +26,17 @@ const Contact = () => {
 
       <div className="row mb-3">
         <div className="col" style={centerStyle}>
-          <h2 className="display-6">Saria Elchaar</h2>
+          <h2 className="display-6"></h2>
           <a href={"https://github.com/Saria995"} className="link-dark" target="_blank" rel="noopener noreferrer" >
             Contact Us
+          </a>
+          <h2 className="display-6"></h2>
+          <a href={"https://hotmail.com"} className="link-dark" target="_blank" rel="noopener noreferrer" >
+            Email
+          </a>
+          <h2 className="display-6"></h2>
+          <a href={"https://hotmail.com"} className="link-dark" target="_blank" rel="noopener noreferrer" >
+            Phone
           </a>
         </div>
       </div>
