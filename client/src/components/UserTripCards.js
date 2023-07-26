@@ -5,6 +5,13 @@ import DeleteTrip from "./DeleteTrip";
 const dayjs = require("dayjs");
 
 const UserTripCards = ({ trips }) => {
+  const calculateCountdown = (startDate) => {
+    const today = dayjs();
+    const start = dayjs(startDate);
+    const diff = start.diff(today, "day");
+    return diff >= 0 ? diff : "Trip has started!";
+  };
+
   return (
     <div>
       {trips.map((trip) => (
@@ -25,6 +32,9 @@ const UserTripCards = ({ trips }) => {
                   </h6>
                   <h6 className="card-subtitle mb-2 text-muted">
                     End: {dayjs(trip.endDate).format("dddd, MMMM D, YYYY")}
+                  </h6>
+                  <h6 className="card-subtitle mb-2 text-muted">
+                    Countdown: {calculateCountdown(trip.startDate)} days
                   </h6>
                 </div>
               </Link>
