@@ -10,11 +10,11 @@ This app has been developed for audiences who are constantly travelling, or have
 
 ## Table of Contents
 
-- Usage
-- The Challenge
-- Technologies Used
-- Link to Deployed Site/GitHub Repo
-- Copyright
+- [Usage](#usage)
+- [The Challenge](#the-challenge)
+- [Technologies Used](#technologies-used)
+- [Link to Deployed Site/GitHub Repo](#link-to-deployed-sitegithub-repo)
+- [Copyright](#copyright)
 
 ## Usage
 
@@ -23,42 +23,42 @@ You will have to make sure you clone the GitHub Repository and have the followin
 - Node
 - MongoDB, Mongoose
 - Add all required dependencies by running an npm Install
-- Once all installed deploy site on local system
+- Once all installed deploy site on the local system
 
-To use the app click on the above Heroku Link
+To use the app, click on the above Heroku Link
 Once you have accessed the app:
 
 ### You will be presented with the home screen
 
-![Alt text](<client/src/assets/Home Page.png>)
+![Alt text](client/src/assets/Home Page.png)
 
 #### Click the register button in the nav bar and complete the form to set up your account.
 
 ### Enter an email, a username and password and click confirm
 
-![Alt text](<client/src/assets/Sign up page.png>)
+![Alt text](client/src/assets/Sign up page.png)
 
 #### If you already have an email, use the 'Login' option
 
-![Alt text](<client/src/assets/Login Page.png>)
+![Alt text](client/src/assets/Login Page.png)
 
-### Once you have logged in/Signed Up you will be able to access the full funcionality of the site and will be taken to your trip dashboard.
+### Once you have logged in/Signed Up you will be able to access the full functionality of the site and will be taken to your trip dashboard.
 
-![Alt text](<client/src/assets/My trips page.png>)
+![Alt text](client/src/assets/My trips page.png)
 
 You can complete the following:
 
 ### Add a new trip/Delete
 
-![Alt text](<client/src/assets/Add trip page.png>)
+![Alt text](client/src/assets/Add trip page.png)
 
 ### Edit/Update Existing Trip
 
-![Alt text](<client/src/assets/Edit trip.png>)
+![Alt text](client/src/assets/Edit trip.png)
 
 ### Create a daily schedule
 
-![Alt text](<client/src/assets/Daily schedule.png>)
+![Alt text](client/src/assets/Daily schedule.png)
 
 ## The Challenge
 
@@ -108,8 +108,8 @@ This app was built using the following technologies:
 
 ## Link to Deployed Site/GitHub Repo
 
-- Heroku: https://getaway-travels-42e954376ed9.herokuapp.com
-- GitHub Repo: https://github.com/Saria995/Project-3-Getaway-Travel-Planning1.git
+- [Heroku](https://getaway-travels-42e954376ed9.herokuapp.com)
+- [GitHub Repo](https://github.com/Saria995/Project-3-Getaway-Travel-Planning1.git)
 
 ## Copyright
 
